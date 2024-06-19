@@ -1,0 +1,26 @@
+#skills li {
+    width: 15vw !important;
+    height: 25vh !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+
+#skills li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+
+    #skills {
+        height: 190vh !important;
+        padding-top: 0 !important;
+        justify-content: flex-start !important;
+    }
+    
+    #skills li {
+        width: 40% !important;
+        height: 15% !important;
+        margin: 2.5% !important;
+    }
+}

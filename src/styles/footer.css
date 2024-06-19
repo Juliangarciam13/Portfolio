@@ -1,0 +1,149 @@
+footer {
+    background-color: #000;
+    display: flex;
+    text-align: center !important;
+}
+
+.contentFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-footer {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.mailCiaid:hover,
+.telCiaid:hover {
+    color: #C2F827 !important;
+}
+
+.mailCiaid,
+.telCiaid {
+    text-decoration: none;
+}
+
+#terms {
+    text-decoration: none;
+}
+
+#terms:hover,
+.nav-link:hover {
+    color: #C2F827 !important;
+}
+
+#terms.active {
+    color: #C2F827 !important;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a img {
+    transition: transform 0.3s ease;
+}
+
+footer a img:hover {
+    transform: translateX(5px);
+}
+
+.icon {
+    width: 100%;
+}
+
+a .logoCiaid {
+    width: 30%;
+}
+
+#topButton {
+    position: sticky;
+    width: 4vw;
+    right: 3vw;
+    top: 350vh;
+    background-color: #C2F827;
+    color: #1D3F60;
+}
+
+#topButton:hover {
+    background-color: none !important;
+}
+
+@media (max-width: 768px) {
+    .containerFooter {
+        width: 100% !important;
+    }
+
+    .containerFooter .list-footer {
+        flex-direction: column !important;
+    }
+
+    .contentFooter {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+    }
+
+    #container-fluid-footer {
+        padding: 0 !important;
+    }
+
+    #container-fluid-footer ul {
+        padding: 0 !important;
+    }
+
+    #socialMedia img {
+        width: 80%;
+    }
+
+    #terms {
+        justify-content: center !important;
+    }
+
+    .copyrightConditions p {
+        text-align: center !important;
+    }
+
+    .socialMedia {
+        text-align: center !important;
+        padding-top: 5vw;
+        padding-left: 10vw;
+    }
+
+    #topButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 5vw;
+        height: 5vh;
+        right: 8vw;
+        top: 2195vh;
+        background-color: #C2F827;
+        color: #1D3F60;
+    }
+
+    .containerFooter #logoText {
+        text-align: center !important;
+    }
+
+    .containerFooter #logoText .logoUtha {
+        margin: 0 !important;
+    }
+
+    .containerFooter .list-footer {
+        text-align: left !important;
+    }
+
+    .containerFooter .socialMedia {
+        padding: 0 !important;
+    }
+
+    .containerFooter .socialMedia img {
+        width: 15vw !important;
+    }
+}

@@ -1,0 +1,39 @@
+#formContact {
+    border-radius: 20px;
+}
+
+#contactInformation {
+    border-radius: 20px 0 0 20px;
+}
+
+#formContact #socialMedia {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-top: 10vh;
+}
+
+#formContact .social-item {
+    margin: 0 10px 0 0;
+}
+
+.icon {
+    width: 2vw;
+    height: 4vh;
+}
+
+.form-group input, textarea {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+}
+.form-group input:focus {
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+input::-webkit-contacts-auto-fill-button {
+    display: none !important;
+}

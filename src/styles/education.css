@@ -1,0 +1,118 @@
+.bannerContent h1 {
+    font-size: 6vw;
+}
+
+#textStudies h1,
+#textProjects h1,
+#phrases h1 {
+    color: #FD6F00;
+    font-size: 3vw;
+}
+
+#education #projects h3,
+#education #projects h2 {
+    color: #FD6F00;
+    font-size: 3vw;
+}
+
+#studies h5,
+#education #skills h2 {
+    color: #FD6F00;
+}
+
+.studiesCard {
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+
+#projectsEducation li,
+#phrases li {
+    border-radius: 20px;
+}
+
+#projectsEducation img {
+    border-radius: 20px 20px 0 0;
+}
+
+#textStudies p,
+#textProjects p {
+    font-size: 20px;
+}
+
+.studiesCard {
+    height: 50vh;
+    width: 20vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+
+.studiesCard:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#phrases img {
+    border-radius: 50%;
+    width: 28vw;
+    height: 10vh;
+}
+
+#phrases li {
+    height: 50vh;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+
+#phrases li:hover {
+    background-color: #FD6F00;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#phrases h3 {
+    font-size: 3vh;
+}
+
+@media(max-width: 768px) {
+    #studies {
+        margin: 0 !important;
+        width: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .studiesCard {
+        height: 43vh;
+        width: 80vw;
+    }
+
+    #textStudies h1,
+    #phrases h1 {
+        font-size: 8vw !important;
+    }
+
+    #textStudies {
+        padding: 0 !important;
+    }
+
+    #textStudies p {
+        font-size: 2vh;
+    }
+
+    #phrases li {
+        height: 50vh;
+    }
+
+    #phrases li p {
+        padding: 5vw !important;
+    }
+
+    #phrases img {
+        width: 25vw !important;
+    }
+
+    #phrases {
+        margin: 0 !important;
+    }
+}

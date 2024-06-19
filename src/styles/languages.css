@@ -1,0 +1,18 @@
+#dropdownMenuButton {
+    background-color: transparent !important;
+    color: #fff;
+    border: none;
+}
+
+#dropdownMenuButton:hover {
+    padding: 4px;
+    background-color: #fff !important;
+    border-radius: 20px;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    #dropdownMenuButton {
+        width: 20%;
+    }
+}

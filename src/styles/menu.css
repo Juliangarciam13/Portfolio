@@ -1,0 +1,142 @@
+.active-blue .nav-link.active {
+    color: #0082FF !important;
+    font-weight: bold;
+}
+
+.active-green .nav-link.active {
+    color: #C2F827 !important;
+    font-weight: bold;
+}
+
+.active-orange .nav-link.active {
+    color: #FD6F00 !important;
+    font-weight: bold;
+}
+
+.active-red .nav-link.active {
+    color: #EB4335 !important;
+    font-weight: bold;
+}
+
+.active-yellow .nav-link.active {
+    color: #FFC531 !important;
+    font-weight: bold;
+}
+
+.active-blue .nav-link:hover {
+    color: #0082FF !important;
+}
+
+.active-orange .nav-link:hover {
+    color: #FD6F00 !important;
+}
+
+.active-red .nav-link:hover {
+    color: #EB4335 !important;
+}
+
+.active-yellow .nav-link:hover {
+    color: #FFC531 !important;
+}
+
+.dropdown-item.active {
+    color: #C2F827 !important;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus {
+    background-color: transparent !important;
+    color: #C2F827 !important;
+}
+
+nav img {
+    transition: transform 0.3s ease;
+}
+
+nav img:hover {
+    transform: translateX(5px);
+}
+
+#navbarNav {
+    background-color: #000;
+    margin-top: 2vh;
+    border-radius: 30px;
+}
+
+#navbarNav li {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-light {
+    background-color: transparent;
+}
+
+.navbar-dark {
+    background-color: #fff;
+}
+
+.navbar-dark .nav-link {
+    color: #fff !important;
+}
+
+.navbar-light .nav-link {
+    color: #fff !important;
+}
+
+#navbarNav {
+    transition: background-color 0.3s ease;
+    margin-top: 2vh;
+    border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+
+    #menu {
+        flex-direction: row !important;
+    }
+    
+    .navbar-toggler {
+        margin-right: 2rem !important;
+        border-color: #000 !important;
+    }
+
+    .navbar-dark .navbar-toggler{
+        background-color: #000;
+    }
+
+    #logoContainer {
+        justify-content: space-between !important;
+    }
+
+
+    #home #menu .logoUtha {
+        margin-left: 2rem !important;
+    }
+
+    .navbar-collapse {
+        background-color: #fff !important;
+        min-height: 10vh !important;
+        border: 1px solid #ddd !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .navbar-brand {
+        justify-content: flex-start !important;
+        padding: 0;
+        margin: 0;
+    }
+}

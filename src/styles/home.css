@@ -1,0 +1,312 @@
+#home .bannerContent h1 {
+    font-size: 4vw;
+}
+
+#aboutMe p {
+    font-size: 2vh;
+}
+
+#experience img {
+    width: 5%;
+}
+
+#experience li {
+    padding: 3vw;
+    border: 2px solid #27272A;
+    box-shadow: 2px 2px 5px 1px #27272A;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#experience h2,
+#aboutMe h2,
+#skills h2,
+#home #projects h3,
+#home #projects h2 {
+    color: #0082FF;
+    font-size: 3vw;
+}
+
+#experience {
+    background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerKpis {
+    height: 50vh;
+}
+
+#containerKpis li {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    list-style: none;
+}
+
+#containerKpis h1,
+#containerKpis h2 {
+    color: #0082FF;
+}
+
+#containerKpis p {
+    color: #000;
+    font-size: 1vw;
+}
+
+#containerKpis h1 {
+    font-size: 4vw;
+}
+
+#containerKpis h2 {
+    font-size: 2vw;
+}
+
+#containerKpis ul {
+    flex-wrap: wrap;
+}
+
+#containerKpis li {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#carousel {
+    height: 30vh;
+    padding: 0 !important;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonSearch,
+.searchImg {
+    display: none !important;
+}
+
+#blogs img,
+#projects img {
+    border-radius: 20px;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+#projects {
+    padding: 5vw;
+    width: 100%;
+    background-color: #000;
+}
+
+#projects p {
+    color: #fff;
+}
+
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-row-reverse {
+    flex-direction: column-reverse;
+}
+
+body {
+    width: 100% !important;
+}
+
+#menu {
+    width: 100% !important;
+}
+
+#socialMediaList img {
+    width: 8vw;
+    padding: 0 1vw 0 1vw;
+}
+
+#socialMediaList li {
+    list-style: none;
+}
+
+@media(max-width: 768px) {
+
+    body {
+        max-width: 100% !important;
+    }
+
+    .socialMediaList {
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profilesImg {
+        padding: 0 5vw 5vw 5vw !important;
+    }
+
+    #socialMediaList li {
+        width: 15vw !important;
+    }
+
+    #socialMediaList img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    #aboutMeContainer {
+    flex-direction: column !important;
+    }
+
+    .custom-toggler {
+        margin: 0 !important;
+    }
+
+    #navbarNav {
+        width: 60vw;
+        background-color: #fff;
+        height: auto;
+        min-height: 30vh;
+        border-radius: 10px;
+        z-index: 1050;
+        top: 10vh;
+        position: fixed;
+        right: 10vw;
+    }
+
+    #navbarNav .dropdown-menu {
+        width: 50vw;
+    }
+
+    .navbar-brand {
+        width: 50% !important;
+    }
+
+    .navbar-brand img {
+        width: 50% !important;
+        margin-left: 5vw !important;
+    }
+
+    #navbarNav .nav-item {
+        padding-left: 5vw;
+    }
+
+    #navbarNav .nav-link {
+        color: #1D3F60 !important;
+    }
+
+    #dropdownLanguages {
+        padding-bottom: 5vw !important;
+        padding-left: 5vw !important;
+    }
+
+    #dropdownMenuButton {
+        border: #1D3F60 1px solid;
+        color: #1D3F60 !important;
+    }
+
+    #navbarNav #buttonContact {
+        margin-bottom: 1vh;
+        margin-left: 5vw;
+        width: 20vw;
+        color: #1D3F60 !important;
+        border: #1D3F60 1px solid !important;
+    }
+
+    #navbarNav #dropdownMenuButton {
+        width: 35vw;
+    }
+
+    #aboutMe {
+        padding: 10vw 10vw 5vw 10vw;
+    }
+
+    #aboutMe p {
+        text-align: justify;
+    }
+
+    #aboutMe h2,
+    #skills h2,
+    #projects h2,
+    #experience h2 {
+        text-align: center;
+        font-size: 8vw !important;
+    }
+
+    #projects video {
+width: 100% !important;
+    }
+
+    #titleProject {
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+        
+    }
+
+    #titleProject h3 {
+    font-size: 6vw !important;
+    padding-left: 3vw;
+    }
+
+    #textProjects p {
+        text-align: justify;
+    }
+
+    #experience h2 {
+        margin-bottom: 5vh;
+    }
+
+    #carousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+        padding: 4vh 0 0 0 !important;
+    }
+
+    #containerKpis {
+        height: 50vh;
+    }
+
+    #containerKpis h1 {
+        font-size: 7vw;
+    }
+
+    #containerKpis h2 {
+        font-size: 5vw;
+    }
+
+    #containerKpis p {
+        font-size: 4vw;
+    }
+
+    #containerKpis ul {
+        padding: 0 !important;
+    }
+}

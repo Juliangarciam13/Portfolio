@@ -1,0 +1,82 @@
+#experienceContainer #experience h2,
+#experienceContainer #skills h2 {
+    color: #EB4335 !important;
+}
+
+#experienceContainer #projects h2,
+#experienceContainer #projects h3 {
+    color: #EB4335 !important;
+}
+
+#experienceContainer #containerKpis h1,
+#experienceContainer #containerKpis h2 {
+    color: #EB4335;
+}
+
+#experience li {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+
+#experience li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media(max-width: 768px) {
+    #experience li {
+        padding: 5vw;
+    }
+
+    #experience li:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        margin: 14vw 0 14vw 0 !important;
+    }
+
+    #experienceContainer h3 {
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    #experienceContainer img {
+        width: 50%;
+        padding: 5vw 0 5vw 0;
+    }
+
+    #experienceContainer p {
+        text-align: justify;
+    }
+
+    #experienceContainer #experienceImgTitle{
+        flex-direction: column !important;
+    }
+
+    #experienceContainer .mainBanner {
+        width: 100%;
+        height: 75vh !important;
+        margin-top: 1vh;
+        padding: 0 !important;
+        flex-direction: column-reverse !important;
+    }
+
+    #experienceImgTitle h3 {
+        padding-left: 0 !important;
+    }
+
+    #experienceContainer #skills li {
+        width: 40% !important;
+        height: 12% !important;
+        margin: 2.5% !important;
+    }
+
+    #experienceContainer  #skills {
+        height: 210vh !important;
+        padding-top: 0 !important;
+        justify-content: flex-start !important;
+    }
+
+    #experienceContainer #titleProject h3 {
+    padding-bottom: 0;
+    }
+}
