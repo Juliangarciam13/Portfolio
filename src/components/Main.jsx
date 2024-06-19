@@ -14,12 +14,12 @@ import TrackPageView from '../components/TrackPageView.jsx';
 import ScrollToTop from '../components/Scroll.jsx';
 import Ecommerces from './Ecommerce.jsx';
 
-ReactGA.initialize('G-723MZSLEXC');
+ReactGA.initialize('');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
     <ScrollToTop />
       <TrackPageView />
       <Routes>
