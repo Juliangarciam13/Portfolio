@@ -291,7 +291,7 @@ body {
     }
 
     #containerKpis {
-        min-height: 60vh;
+        height: 50vh;
         justify-content: flex-end !important;
     }
 
@@ -313,8 +313,11 @@ body {
 }
 
 @media (max-width: 390px) {
-    #containerKpis {
+    #home #containerKpis {
         min-height: 50vh !important;
-        margin-top: 5vh !important;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        justify-content: center !important;
     }
 }

@@ -74,6 +74,10 @@
     font-size: 3vh;
 }
 
+#studies {
+    margin: 0;
+}
+
 @media(max-width: 768px) {
     #studies {
         margin: 0 !important;

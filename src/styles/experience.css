@@ -56,14 +56,7 @@
         padding-left: 0 !important;
     }
 
-    #experienceContainer #skills li {
-        width: 40% !important;
-        height: 12% !important;
-        margin: 2.5% !important;
-    }
-
     #experienceContainer  #skills {
-        height: 210vh !important;
         padding-top: 0 !important;
         justify-content: flex-start !important;
     }
@@ -73,6 +66,15 @@
     }
 
     #experienceContainer #containerKpis {
-        margin-top: 10vh;
+        margin-top: 10vh !important;
+    }
+}
+
+@media (max-width: 390px) {
+    #experienceContainer #containerKpis {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        justify-content: center !important;
     }
 }
