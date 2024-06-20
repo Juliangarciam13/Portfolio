@@ -107,11 +107,14 @@ nav img:hover {
 
     #menu {
         flex-direction: row !important;
+        background-color: #fff !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
     }
     
     .navbar-toggler {
         margin-right: 2rem !important;
         border-color: #000 !important;
+        color: #000 !important;
     }
 
     .navbar-dark .navbar-toggler{
@@ -131,7 +134,6 @@ nav img:hover {
         background-color: #fff !important;
         min-height: 10vh !important;
         border: 1px solid #ddd !important;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
     }
 
     .navbar-brand {
