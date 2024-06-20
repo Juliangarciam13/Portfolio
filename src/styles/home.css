@@ -313,7 +313,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 390px) {
     #containerKpis {
         min-height: 50vh !important;
         margin-top: 5vh !important;
