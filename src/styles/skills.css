@@ -13,8 +13,7 @@
 @media (max-width: 768px) {
 
     #skills {
-        min-height: 200vh !important;
-        max-height: 210vh !important;
+        height: 210vh !important;
         padding-top: 0 !important;
         justify-content: flex-start !important;
     }
@@ -24,5 +23,11 @@
         height: 15% !important;
         margin: 2.5% !important;
         box-sizing: border-box;
+    }
+}
+
+@media (max-width: 390px) {
+    #skills {
+        height: 195vh !important;
     }
 }
