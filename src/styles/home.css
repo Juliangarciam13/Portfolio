@@ -292,6 +292,7 @@ width: 100% !important;
 
     #containerKpis {
         height: 50vh;
+        margin-top: 5vh;
     }
 
     #containerKpis h1 {
