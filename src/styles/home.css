@@ -178,9 +178,9 @@ body {
         width: 100% !important;
         height: auto !important;
     }
-    
+
     #aboutMeContainer {
-    flex-direction: column !important;
+        flex-direction: column !important;
     }
 
     .custom-toggler {
@@ -259,19 +259,19 @@ body {
     }
 
     #projects video {
-width: 100% !important;
+        width: 100% !important;
     }
 
     #titleProject {
         display: flex;
         flex-direction: row;
-        align-items: center ;
-        
+        align-items: center;
+
     }
 
     #titleProject h3 {
-    font-size: 6vw !important;
-    padding-left: 3vw;
+        font-size: 6vw !important;
+        padding-left: 3vw;
     }
 
     #textProjects p {
@@ -293,7 +293,7 @@ width: 100% !important;
     #containerKpis {
         min-height: 60vh;
         margin-top: 10vh;
-       justify-content: flex-end !important;
+        justify-content: flex-end !important;
     }
 
     #containerKpis h1 {
@@ -310,5 +310,12 @@ width: 100% !important;
 
     #containerKpis ul {
         padding: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #containerKpis {
+        min-height: 50vh !important;
+        margin-top: 5vh !important;
     }
 }
