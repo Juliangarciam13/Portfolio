@@ -79,4 +79,8 @@
     #experienceContainer #titleProject h3 {
     padding-bottom: 0;
     }
+
+    #experienceContainer #containerKpis {
+        margin-top: 10vh;
+    }
 }

@@ -292,7 +292,6 @@ body {
 
     #containerKpis {
         min-height: 60vh;
-        margin-top: 10vh;
         justify-content: flex-end !important;
     }
 
