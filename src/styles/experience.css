@@ -34,21 +34,21 @@
         margin: 14vw 0 14vw 0 !important;
     }
 
-    #experienceContainer h3 {
+    #experienceSection h3 {
         text-align: center;
         padding-bottom: 5vw;
     }
 
-    #experienceContainer img {
+    #experienceSection img {
         width: 50%;
         padding: 5vw 0 5vw 0;
     }
 
-    #experienceContainer p {
+    #experienceSection p {
         text-align: justify;
     }
 
-    #experienceContainer #experienceImgTitle{
+    #experienceSection #experienceImgTitle{
         flex-direction: column !important;
     }
 

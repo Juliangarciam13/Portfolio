@@ -8,7 +8,7 @@ const ExperienceSection = () => {
                 <div className='d-flex justify-content-center'>
                     <ul className='list-unstyled d-flex flex-column justify-content-center align-items-center'>
                         {experiences.map((experience, index) => (
-                            <li key={index} id="experienceContainer" className='d-flex flex-column align-items-center m-3 col-10 justify-content-center'>
+                            <li key={index} id="experienceSection" className='d-flex flex-column align-items-center m-3 col-10 justify-content-center'>
                                 <div id="experienceImgTitle" className='d-flex flex-row w-100 align-items-center'>
                                     <img src={experience.img} alt={experience.name} className='mb-2' />
                                     <h3 className='ps-4'>{experience.job}</h3>
