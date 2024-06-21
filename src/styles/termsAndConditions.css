@@ -3,23 +3,9 @@
 }
 
 @media(max-width: 768px) {
-    #termsConditions .mainBanner {
-        height: 30vh;
-        width: 100% !important;
-    }
-
-    #termsConditions .mainBanner h1 {
-        font-size: 7vw !important;
-        text-align: center !important;
-    }
-
-    #termsConditions .bannerContent {
-        top: 45% !important;
-    }
-    
     #termsConditions #termsContainer {
         margin: 0 !important;
-        padding: 0 0 20vw 0 !important;
+        padding: 5vh 0 20vw 0 !important;
     }
 
     #termsContainer section {

@@ -8,17 +8,17 @@ import { useTranslation } from 'react-i18next';
 
 const socialMediaLinks = {
     linkedIn: {
-        link: "https://www.linkedin.com/company/ciaid/about/",
+        link: "https://www.linkedin.com/in/juliangarciam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         image: linkedIn,
         alt: "LinkedIn Icon"
     },
     gitHub: {
-        link: "https://twitter.com/CCiaid",
+        link: "https://github.com/Juliangarciam13?tab=repositories",
         image: gitHub,
         alt: "GitHub Icon"
     },
     youtube: {
-        link: "https://www.youtube.com/channel/UCfy1mrSztrVaV94UEpVHYuA",
+        link: "https://www.instagram.com/utha.co?igsh=MWVwbXF5YWpyaGs4cw%3D%3D&utm_source=qr",
         image: instagram,
         alt: "Ibstagram Icon"
     }
@@ -40,19 +40,19 @@ const Footer = () => {
                         <div className="col-lg-4 col-sm-12 col">
                             <ul className="list-footer text-center d-flex flex-row">
                                 <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/home'>
-                                    <li>{t('footer.home')}</li>
+                                    <li>{t('menu.home')}</li>
                                 </NavLink>
-                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/aboutus'>
-                                    <li>{t('footer.aboutUs')}</li>
+                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/projects'>
+                                    <li>{t('menu.aboutUs')}</li>
                                 </NavLink>
-                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/investigation'>
-                                    <li>{t('footer.services')}</li>
+                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/ecommerces'>
+                                    <li>{t('menu.ecommerce')}</li>
                                 </NavLink>
-                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/privacypolicy'>
-                                    <li>{t('footer.investigation')}</li>
+                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/education'>
+                                    <li>{t('menu.services')}</li>
                                 </NavLink>
-                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/contact'>
-                                    <li>{t('footer.contact')}</li>
+                                <NavLink className='nav-link text-light ps-0' activeClassName='active' to='/experience'>
+                                    <li>{t('menu.investigation')}</li>
                                 </NavLink>
                             </ul>
                         </div>
