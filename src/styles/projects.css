@@ -27,8 +27,9 @@
     border-radius: 20px;
 }
 
-video {
-    pointer-events: none; /* Desactivar eventos de clic para evitar pantalla completa */
+#projects video,
+#ecommerce video {
+    pointer-events: none !important; /* Desactivar eventos de clic para evitar pantalla completa */
 }
 
 @media (max-width: 768px) {

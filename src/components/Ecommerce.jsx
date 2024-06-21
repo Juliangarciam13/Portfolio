@@ -1,3 +1,4 @@
+import '../styles/projects.css';
 import { ecommerces } from '../scripts/data';
 import { useNavigate } from 'react-router-dom';
 import MainBanner from './MainBanner';
@@ -31,7 +32,7 @@ const Ecommerces = () => {
                 <div className='projects-container d-flex flex-column'>
                     {ecommerces.slice(0, 6).map((ecommerce, index) => (
                         <div key={index} className={`project-item d-flex flex-row align-items-center my-3 ${index % 2 === 1 ? 'flex-row-reverse' : ''}`}>
-                            <video autoPlay loop muted className='mb-2 w-50 mb-5 project-img' alt={ecommerce.title}>
+                            <video autoPlay playsInline loop muted className='mb-2 w-50 mb-5 project-img' alt={ecommerce.title}>
                                 <source src={ecommerce.video} type='video/mp4' />
                             </video>
                             <div id='textProjects' className={`d-flex flex-column text-start ${index % 2 === 1 ? 'pe-5' : 'ps-5'}`}>
