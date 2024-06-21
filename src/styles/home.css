@@ -295,6 +295,10 @@ body {
         justify-content: flex-end !important;
     }
 
+    #home #containerKpis {
+        margin-top: 5vh !important;
+    }
+
     #containerKpis h1 {
         font-size: 7vw;
     }
