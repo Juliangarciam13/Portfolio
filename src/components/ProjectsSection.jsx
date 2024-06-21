@@ -17,7 +17,7 @@ const ProjectsSection = () => {
                 <div className='projects-container d-flex flex-column'>
                     {projects.slice(0, 12).map((project, index) => (
                         <div key={index} className={`project-item d-flex flex-row align-items-center my-3 ${index % 2 === 1 ? 'flex-row-reverse' : ''}`}>
-                            <video autoPlay loop muted className='mb-2 w-50 mb-5 project-img' alt={project.title}>
+                            <video autoPlay playsInline loop muted className='mb-2 w-50 mb-5 project-img' alt={project.title}>
                                 <source src={project.video} type='video/mp4' />
                             </video>
                             <div id='textProjects' className={`d-flex flex-column text-start ${index % 2 === 1 ? 'pe-5' : 'ps-5'}`}>
