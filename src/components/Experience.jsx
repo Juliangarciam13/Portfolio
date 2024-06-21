@@ -10,12 +10,12 @@ import ProjectsSection from './ProjectsSection.jsx';
 
 const Experience = () => {
     const { t } = useTranslation();
-    const homeTitle1 = t('mainBanner.homeTitle1');
-    const homeTitle2 = t('mainBanner.homeTitle2');
-    const homeTitle3 = t('mainBanner.homeTitle3');
-    const homeTitle4 = t('mainBanner.homeTitle4');
-    const homeTitle5 = t('mainBanner.homeTitle5');
-    const homeTitle6 = t('mainBanner.homeTitle6');
+    const homeTitle1 = t('mainBanner.experienceTitle1');
+    const homeTitle2 = t('mainBanner.experienceTitle2');
+    const homeTitle3 = t('mainBanner.experienceTitle3');
+    const homeTitle4 = t('mainBanner.experienceTitle4');
+    const homeTitle5 = t('mainBanner.experienceTitle5');
+    const homeTitle6 = t('mainBanner.experienceTitle6');
 
     return (
         <div id='experienceContainer'>

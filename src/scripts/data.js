@@ -112,7 +112,7 @@ export const ecommerces = [
         video: letsBloom,
         num: 1,
         title: "Website Lets Bloom",
-        text: "Desempeñé el rol de desarrollador fullstack, donde lideré la creación y despliegue de un sitio web multilingüe utilizando tecnologías modernas como React, HTML, CSS, JavaScript y Bootstrap. Implementé un backend robusto con FastAPI y PostgreSQL, y gestioné pruebas y APIs con Postman. Además, integré i18next para soportar traducción en seis idiomas, asegurando una experiencia de usuario global. La plataforma fue desplegada en AWS, garantizando su escalabilidad y disponibilidad. Este proyecto me permitió combinar mis habilidades técnicas para desarrollar una solución completa y funcional para una empresa de ingeniería avanzada.",
+        text: "Desarrollé este e-commerce en Shopify utilizando HTML, CSS, Liquid y Bootstrap. Creé una interfaz atractiva y funcional para la venta de flores, envio de formularios, carrito de compras, carruseles de imagenes, optimizando el backend para gestionar inventario y pedidos. Integré herramientas de SEO y marketing digital, y aseguré que el sitio fuera responsivo y amigable en dispositivos móviles.",
         url: "https://letsbloomfloral.com/",
         topic: "Frontend"
     },
@@ -120,7 +120,7 @@ export const ecommerces = [
         video: lawaLegal,
         num: 2,
         title: "Website Lawa Legal",
-        text: "Desarrollé una aplicación web utilizando React, JavaScript, HTML y CSS. Implementé la API de CoinGecko para obtener datos actualizados sobre criptomonedas y utilicé la biblioteca Chart.js para visualizar gráficos interactivos de precios. La aplicación permite a los usuarios buscar criptomonedas y ver sus tendencias de precios durante los últimos 30 días, proporcionando una herramienta útil para el análisis de mercado. Este proyecto demuestra mi habilidad para integrar múltiples tecnologías y APIs, creando una experiencia de usuario rica y funcional.",
+        text: "Desarrollé este e-commerce en Wix, creando una plataforma intuitiva y visualmente atractiva enfocada en servicios legales. Implementé funcionalidades de reserva de citas, enlaces directos a Whats App, optimización SEO y se integro Google Analytics. El diseño se centró en la accesibilidad y la experiencia del usuario, asegurando una navegación fluida y un rendimiento eficiente en dispositivos móviles y de escritorio.",
         url: "https://www.lawa.com.co/",
         topic: "Frontend"
     },
@@ -128,7 +128,7 @@ export const ecommerces = [
         video: sevenHouseStore,
         num: 3,
         title: "Website 7HS",
-        text: "He desarrollado diversos proyectos de e-Commerce utilizando plataformas como WordPress, Shopify y Wix. Mi experiencia incluye la creación de tiendas en línea desde cero, el diseño de landing pages atractivas y funcionales, así como la implementación de funcionalidades avanzadas como pagos recurrentes, slides de imágenes automáticos, integración de pasarelas de pago y promociones interactivas como ruletas de descuentos. Además, he brindado asesorías personalizadas para optimizar la gestión y el rendimiento de las tiendas en línea, asegurando una experiencia de usuario fluida y eficiente.",
+        text: "Para 7HS, un taller de confección textil, desarrollé un e-commerce en Shopify. Implementé funcionalidades para la visualización de productos, carrito de compras, suscripción al newsletter y una sección de preguntas frecuentes. Utilicé HTML y CSS para crear un diseño atractivo y fácil de usar, optimizando la experiencia del cliente en todo el proceso de compra.",
         url: "",
         topic: "Frontend"
     },
@@ -136,7 +136,7 @@ export const ecommerces = [
         video: catalinaJaramillo,
         num: 4,
         title: "Landing Page Catalina Jaramillo",
-        text: "Es una aplicación web que permite a los usuarios buscar libros en tres géneros diferentes utilizando la API de OpenLibrary. Algunos de estos libros están disponibles para descarga. Además, los usuarios pueden subir sus propios documentos, los cuales se almacenan y gestionan a través de la API de Filestack, permitiendo también la descarga posterior de estos archivos. Este proyecto combina funcionalidades avanzadas de búsqueda y gestión de documentos, ofreciendo una experiencia integral y eficiente para los usuarios interesados en leyes, política e historia. Para su desarrollo, utilicé tecnologías como HTML, CSS, React y Bootstrap.",
+        text: "En el sitio web de Catalina Jaramillo, trabajé en la sección de suscripciones en Shopify. Creé dos suscripciones de pagos recurrentes, ofreciendo beneficios exclusivos para los usuarios. Implementé la integración de la aplicación Conjure Memberships y utilicé HTML y CSS para asegurar una experiencia de usuario fluida y atractiva.",
         url: "https://catalinajaramillo.us/pages/subscriptions" ,
         topic: "Frontend"
     },
@@ -144,7 +144,7 @@ export const ecommerces = [
         video: selik,
         num: 5,
         title: "Landing Page Selik",
-        text: "Es una aplicación web diseñada para aquellos interesados en la nutrición y el bienestar. La calculadora permite a los usuarios determinar su ingesta calórica diaria recomendada basada en varios factores. Fue construida utilizando tecnologías como HTML, CSS, JavaScript y el framework Bootstrap, y demuestra prácticas modernas de diseño web responsive. La aplicación tiene una estructura modular y presenta un diseño elegante y amigable para el usuario.",
+        text: "Desarrollé una landing page para Selik Skincare en Shopify, enfocada en la promoción y venta de productos de cuidado de la piel. La página incluye un sistema de carrito de compras y fue desarrollada utilizando HTML y CSS para asegurar una experiencia de usuario fluida y atractiva. La landing page presenta productos destacados y testimonios de clientes, optimizando la conversión de visitantes en clientes.",
         url: "https://selikskincare.com/pages/landing",
         topic: "Fontend"
     },
@@ -152,7 +152,7 @@ export const ecommerces = [
         video: talentoHumano,
         num: 6,
         title: "Website Talento Humano",
-        text: "Este es un juego de Piedra, Papel o Tijera implementado en Python con una interfaz gráfica de usuario (GUI) utilizando la librería Tkinter. El juego permite al usuario jugar contra la computadora eligiendo entre piedra, papel o tijera. Una vez que el usuario hace su elección, la computadora genera su propia elección de manera aleatoria. El juego muestra el resultado de cada ronda y permite jugar indefinidamente.",
+        text: "Desarrollé el sitio web de Talento Humano en WordPress, utilizando HTML y CSS. El sitio incluye diversas funcionalidades como formularios de contacto para consultas y solicitudes y una sección con planes específicos para los usuarios. La interfaz es intuitiva, fácil de navegar y optimizada para dispositivos móviles, asegurando una experiencia de usuario fluida y eficiente.",
         url: "https://talento-humano.co/",
         topic: "Frontend"
     }
