@@ -39,12 +39,15 @@ Nota: Asegúrate de tener instalados `Git`, `Node.js` y `Yarn` en tu sistema par
 
 ## Despliegue
 GitHub Pages: Utilizado para el alojamiento y despliegue del sitio web.
+
 Link: https://juliangarciam13.github.io/Portfolio/
 
 ## Contacto
 Para más información o para discutir oportunidades de colaboración, puedes contactarme a través de:
 
 Email: juliangarciam13@gmail.com
+
 LinkedIn: www.linkedin.com/in/juliangarciam
+
 GitHub: [Juliangarciam13](https://github.com/Juliangarciam13?tab=repositories)
 
