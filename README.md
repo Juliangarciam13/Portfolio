@@ -7,13 +7,19 @@
 
 ## Frontend
 -HTML5: Estructura semántica del contenido.
+
 -CSS3: Estilos y diseño responsivo.
+
 -JavaScript: Interactividad y lógica del cliente.
+
 -React: Biblioteca de JavaScript para la construcción de interfaces de usuario.
+
 -Vite: Herramienta de desarrollo para un entorno de construcción rápido y eficiente.
+
 
 ## Diseño
 -Figma
+
 -Canva
 
 ## Guía de Instalación
